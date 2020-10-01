@@ -42,7 +42,7 @@ export default function ContactPage() {
 function Post(props) {
     return (
         <dev className='container'>
-            <Link href={`./component/post?title=${props.title}`}>
+            <Link href={`/component/post?title=${props.title}`}>
                 <button type="button" className="btn btn-primary">{props.title}</button>
             </Link>
             <style jsx>{`
