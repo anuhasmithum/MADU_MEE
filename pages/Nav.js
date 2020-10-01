@@ -5,11 +5,11 @@ export default function Nav() {
         const router = useRouter()
 
     return (
-        <dev>
+        <dev className='nav'>
             <nav className="navbar navbar-default">
                 <div className="container-fluid">
-                    <div className="navbar-header">
-                        <Link href='/'><a className="navbar-brand">GetStart...</a></Link>
+                    <div className="navbar-header getstart">
+                        <Link href='/Home'><a className="navbar-brand">GetStart...</a></Link>
                         {/* <span onclick={() => router.replace('/')}><a className="navbar-brand">GetStart...</a></span> */}
 
                     </div>
@@ -26,6 +26,24 @@ export default function Nav() {
                     </ul>
                 </div>
             </nav>
+            <div>
+
+            </div>
+            <style jsx>{`
+                .nav {
+                    width: auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    margin: 10px 100px;
+                    // background-color: red;
+                }
+                .getstart {
+                    justify-content: space-around;
+                    margin: 10px 50px;
+                }
+            `}
+            </style>
         </dev>
     )
 }
