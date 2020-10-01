@@ -13,7 +13,7 @@ export default function Main() {
             </Head>
             <h3>Welcome to getstart...</h3>
             <br/><br></br>
-            <a className="btn btn-info" onClick={() => router.push('/Home')}> login..</a>
+            <a className="btn btn-info" onClick={() => router.push('./Home')}> login..</a>
             <style jsx>{`
                 .container {
                     height: auto;
