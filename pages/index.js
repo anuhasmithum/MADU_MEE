@@ -12,7 +12,7 @@ export default function Main() {
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
             </Head>
             <h3>Welcome to getstart...</h3>
-            <a onClick={() => router.push('/Home')}> login..</a>
+            <a class="btn btn-info" onClick={() => router.push('/Home')}> login..</a>
 
         </dev>
 
