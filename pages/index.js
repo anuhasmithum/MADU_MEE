@@ -1,7 +1,7 @@
 
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-
+import Link from 'next/link'
 
 export default function Main() {
     const router = useRouter()
@@ -12,8 +12,10 @@ export default function Main() {
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
             </Head>
             <h3>Welcome to getstart...</h3>
-            <br/><br></br>
-            <a className="btn btn-info" onClick={() => router.push('./Home')}> login..</a>
+            <br /><br></br>
+            <Link href='/Home'>
+            <a className="btn btn-info"> login..</a>
+            </Link>
             <style jsx>{`
                 .container {
                     height: auto;
