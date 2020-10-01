@@ -15,13 +15,13 @@ export default function Nav() {
                     </div>
                     <ul className="nav navbar-nav">
                         <li><Link href='/Docs' >
-                            <a style={{ marginRight: 50 }}>Docs.......</a>
+                            <a style={{ marginRight: 50 }}> Docs.......</a>
                         </Link></li>
                         <li><Link href='/About' >
-                            <a style={{ marginRight: 50 }}>About.......</a>
+                            <a style={{ marginRight: 50 }}> About.......</a>
                         </Link></li>
                         <li><Link href='/Contact' >
-                            <a style={{ marginRight: 50 }}>contact.......</a>
+                            <a style={{ marginRight: 50 }}> Contact.......</a>
                         </Link></li>
                     </ul>
                 </div>

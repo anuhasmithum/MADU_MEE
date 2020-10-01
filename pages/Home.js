@@ -14,10 +14,10 @@ export default function Main() {
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
             </Head>
             <Layout>
-                <h3>Welcome to getstart...</h3>
+                <h3>Welcome to GetStart...</h3>
             </Layout>
             <Link href='/'>
-                <button type="button" className="btn btn-primary">back</button>
+                <a className="btn btn-info">go back</a>
             </Link>
             <style jsx>{`
                 .container {
