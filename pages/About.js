@@ -10,7 +10,7 @@ export default function AboutPage() {
             </Head>
             <dev className='container2'>
                 <Nav></Nav>
-            <h2>welcome about... </h2>
+            <h2>about us... </h2>
             </dev>
             <style jsx>{`
                 .container {
