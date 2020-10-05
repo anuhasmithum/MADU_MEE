@@ -30,9 +30,12 @@ export default function Docs(props) {
         </div>
     )
 }
-
-Docs.getInitialProps = async function () {
+export async function getStaticProps() {
     const res = await fetch('https://jsonplaceholder.typicode.com/todos')
     const data = await res.json()
-    return { data }
+    return {
+        props: {
+            data,
+        }
+    }
 }
