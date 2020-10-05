@@ -19,10 +19,6 @@ export default function Main() {
                 <Layout />
                 <h2>Welcome to GetStart...</h2>
 
-                <Link href='/component/page1'>
-                    <a>Dynamic Paths</a>
-                </Link>
-
                 <GlobalStyles />
                 <p>
                     odio iure consequatur molestiae quibusdam necessitatibus quia sint
