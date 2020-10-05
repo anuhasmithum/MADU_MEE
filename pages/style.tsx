@@ -10,10 +10,11 @@ export default function GlobalStyles() {
             }
             .body {
                 align-item:center;
-                background: #eee;                  
+                background: #efe;                  
                 display: flex;
                 height: 100%;
                 flex-direction: column;
+                padding: 0 20px;
             }
             h2 {          
                 width: auto;

@@ -8,18 +8,19 @@ export default function Nav() {
     return (
         <div className="navbar">
             <Link href='/Home'>
-                <a>Home.....</a>
+                <a title='go to home page'>Home.....</a>
             </Link>
             <Link href='/Docs' >
-                <a> Docs.......</a>
+                <a title='go to docs page'> Docs.......</a>
             </Link>
             <Link href='/About' >
-                <a> About.......</a>
+                <a title='go to about page'> About.......</a>
             </Link>
             <Link href='/Contact' >
-                <a> Contact.......</a>
+                <a title='go to contact page'> Contact.......</a>
             </Link>
             <GlobalStyles />
         </div>
     )
 }
+

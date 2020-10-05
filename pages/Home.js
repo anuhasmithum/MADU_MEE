@@ -8,9 +8,8 @@ import GlobalStyles from './style.tsx'
 
 
 export default function Main() {
-    // const router = useRouter()
+    const router = useRouter()
     return (
-        // <html>
         <div className="container">
             <Head>
                 <title>Home</title>
@@ -20,9 +19,12 @@ export default function Main() {
                 <Layout />
                 <h2>Welcome to GetStart...</h2>
 
+                <Link href='/component/page1'>
+                    <a>Dynamic Paths</a>
+                </Link>
+
                 <GlobalStyles />
                 <p>
-
                     odio iure consequatur molestiae quibusdam necessitatibus quia sint
 
                     facilis modi saepe mollitia
@@ -131,14 +133,15 @@ export default function Main() {
 
                     nam quia quia nulla repellat assumenda quibusdam sit nobis
                 </p>
-                
+
                 <Footer />
-                
-                <Link href='/'>
+
+                <Link href='/' >
                     <a className="button">go back</a>
                 </Link>
             </div>
         </div>
-        // </html>
     )
 }
+
+

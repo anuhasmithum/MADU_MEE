@@ -5,7 +5,7 @@ export default function Layout(props) {
     return (
         <dev>
             <Nav></Nav>
-            {props.children}
+            {/* {props.children} */}
         </dev>
     )
 }
